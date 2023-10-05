@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0288D1"
+    tools:context=".fragment.fragment.IncomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:backgroundTint="#0288D1"
+        android:background="#EAEEF1">
+
+        <TextView
+            android:id="@+id/tvIncome"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#FBC02D"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#EF0909"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        tools:listitem="@layout/all_income_expense_list">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string name="signup"><u>SignUp</u></string>
+    <string name="login"><u>login</u></string>
+
+    <string-array name="Status">
+        <item>Select Status</item>
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+</resources>

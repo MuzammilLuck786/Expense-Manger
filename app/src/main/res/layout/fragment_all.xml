@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fmAllFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0288D1"
+    tools:context=".fragment.fragment.AllFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="4dp"
+        android:background="#EAEEF1">
+
+        <TextView
+            android:id="@+id/profitTextView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:background="#2A0E6C"
+            android:textStyle="bold"
+            android:textColor="#FBC02D"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lossTextView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#FBC02D"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#EF0909"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#EAEEF1">
+
+        <TextView
+            android:id="@+id/tvCheckProfitLoss"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginEnd="5dp"
+            android:text="Profit Or Loss"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#D8C4CC"
+        >
+
+        <TextView
+            android:id="@+id/tvdateSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Search Date"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:drawableRight="@drawable/baseline_calendar_month_24"
+            android:paddingRight="5dp"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnSearchdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:layout_marginRight="5dp">
+
+        </Button>
+        <Button
+            android:id="@+id/btnclear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Refresh List"
+            android:layout_marginRight="5dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAllIncomeExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:padding="5dp"
+            tools:listitem="@layout/all_income_expense_list">
+        </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>
