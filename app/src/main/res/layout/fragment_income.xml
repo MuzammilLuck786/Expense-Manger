@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0288D1"
+    android:background="@drawable/forlist"
     tools:context=".fragment.fragment.IncomeFragment">
 
     <LinearLayout
@@ -11,19 +11,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="5dp"
-        android:backgroundTint="#0288D1"
         android:background="#EAEEF1">
 
         <TextView
             android:id="@+id/tvIncome"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:background="#FBC02D"
+            android:background="#2A0E6C"
             android:layout_weight="1"
             android:text="0"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="#EF0909"
+            android:textColor="#FBC02D"
             android:textSize="12sp" />
 
     </LinearLayout>

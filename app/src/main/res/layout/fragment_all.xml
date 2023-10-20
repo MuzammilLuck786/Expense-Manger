@@ -4,7 +4,7 @@
     android:id="@+id/fmAllFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0288D1"
+    android:background="@drawable/forlist"
     tools:context=".fragment.fragment.AllFragment">
 
     <LinearLayout
@@ -50,7 +50,7 @@
         android:layout_marginTop="55dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
-        android:background="#EAEEF1">
+        android:background="#DBCFCF">
 
         <TextView
             android:id="@+id/tvCheckProfitLoss"
@@ -75,7 +75,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
-        android:background="#D8C4CC"
+        android:background="#DBCFCF"
         >
 
         <TextView
@@ -117,7 +117,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
             android:padding="5dp"
-            tools:listitem="@layout/all_income_expense_list">
+            tools:listitem="@layout/all_income_expense_list"
+            >
         </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>

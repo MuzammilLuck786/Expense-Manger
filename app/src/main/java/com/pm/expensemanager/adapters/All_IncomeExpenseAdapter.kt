@@ -69,6 +69,7 @@ class All_IncomeExpenseAdapter(
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: IncomeExpenseEntity) {
+            binding.icomeorexpense.text= "${item.status}"
             binding.incomeTextView.text = "Amount: ${item.amount.toString()}"
             binding.statusTextView.text = "Status: ${item.status}"
             binding.reasonTextView.text = "Reason: ${item.reason}"

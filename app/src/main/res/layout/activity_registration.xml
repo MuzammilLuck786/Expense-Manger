@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#E1D3E1"
+    android:background="@drawable/login"
     tools:context=".user.RegistrationActivity">
 
     <LinearLayout
@@ -15,8 +15,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
-        android:background="#E1D3E1"
         android:orientation="vertical">
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/purple_200"
             android:text="Registration"
             android:textStyle="bold" />
         <LinearLayout
@@ -125,7 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Already Have Account?"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:layout_gravity="center"
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:text="@string/login"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold"
                 android:textSize="15dp"
                 android:layout_gravity="center"

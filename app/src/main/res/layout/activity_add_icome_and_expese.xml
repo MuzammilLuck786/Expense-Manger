@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FBC02D"
+    android:background="@drawable/forlist"
     tools:context=".AddIcomeAndExpese">
 
     <LinearLayout
@@ -28,7 +28,7 @@
                 android:id="@+id/edAmount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#EFF3F2"
+                android:background="#B6DCEF"
                 android:inputType="number"
                 android:textSize="18dp" />
 
@@ -55,7 +55,7 @@
                 android:id="@+id/edReason"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#EFF3F2"
+                android:background="#B6DCEF"
                 android:inputType="text"
                 android:textSize="18dp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -72,7 +72,7 @@
                 android:id="@+id/edDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#EFF3F2"
+                android:background="#B6DCEF"
                 android:inputType="text"
                 android:textSize="18dp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -90,7 +90,7 @@
             android:id="@+id/edSetDate"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:text="Select Date"
             android:paddingLeft="15dp"
             android:gravity="center_vertical"

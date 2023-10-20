@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#E1D3E1"
+    android:background="@drawable/forlist"
     tools:context=".user.UserProfile">
 
     <LinearLayout
@@ -84,7 +84,7 @@
             android:textSize="18dp"
             android:paddingLeft="10dp"
             android:layout_marginEnd="10dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:gravity="center_vertical" />
 
         <Button
@@ -103,7 +103,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
-            android:background="#EFF3F2"
+            android:text="Your Age Will Be Calculated Here"
+            android:background="#B6DCEF"
             android:gravity="center" />
 
         <TextView
@@ -143,7 +144,7 @@
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:hint="Enter weight in kg"
             android:paddingLeft="5dp"
             android:textSize="18dp" />
@@ -163,7 +164,7 @@
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:hint="Height feet"
             android:paddingLeft="5dp"
             android:textSize="18dp" />
@@ -183,7 +184,7 @@
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:hint="Height inche"
             android:paddingLeft="5dp"
             android:textSize="18dp" />
@@ -204,7 +205,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
-            android:background="#EFF3F2"
+            android:background="#B6DCEF"
             android:gravity="center" />
 
         <Button
