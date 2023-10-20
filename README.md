@@ -58,10 +58,12 @@ The Expense Manager App is a user-friendly mobile application designed to help u
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/5c9d844e-8977-4815-88d4-72013f80ad22" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/57c61b74-dd65-479a-8afa-d0ce5369f45e" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/9cf5fb2a-210c-4d83-80f9-e315f291c63b" alt="All Images" width="300" />
+  <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/7c812328-9e85-49a9-82bb-b39ae5933e89" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/0db3e6cd-7100-416d-b9b6-3a8930b169e6" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/8febad7d-a059-4652-99eb-8f4f5ba9021f" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/2a7023b7-b820-44a4-89eb-6fbae3d62a00" alt="All Images" width="300" />
   <img src="https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/c823d289-37e5-49e7-a671-d55c813939f9" alt="All Images" width="300" />
+
 </p>
 
 
