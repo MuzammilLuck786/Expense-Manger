@@ -51,10 +51,7 @@ The Expense Manager App is a user-friendly mobile application designed to help u
 3. Navigate between the Income and Expense fragments to view separate lists.
 4. Access the Profile section to calculate age and BMI.
 
-
-
-
-https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/12cbf14d-b17a-4cde-8652-d874ebdef136
+https://github.com/MuzammilLuck786/Expense-Manger/assets/146478975/6ef24411-5b80-4179-b521-d46cde074ad9
 
 
 <p align="center">
